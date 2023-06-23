@@ -17,7 +17,7 @@
 
     </head>
     <header class="bg-primary-subtle">
-        <div class="container">
+        <!-- <div class="container">
             <div class="row-cols-auto p-5 text-center">
                 <h1>Brighid T. Schuler, LCSW</h1>
             </div>
@@ -30,28 +30,139 @@
               <div class="justify-content-center collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="nav nav-pills flex-md-column-reverse flex-lg-row">
                     <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Features</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Pricing</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">FAQs</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">About Me</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Services</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Insurances</a></li>
                     <li class="nav-item"><a href="#" class="nav-link">About</a></li>
                   </ul>
               </div>
             </div>
+          </nav> -->
+
+          <nav class="navbar navbar-expand-lg navbar-dark bg-primary" aria-label="Fifth navbar example">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Brighid T. Schuler, LCSW</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+        
+              <div class="collapse navbar-collapse" id="navbarsExample05">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-end">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About Me</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="">Services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="">Insurances</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
           </nav>
+        
+        
 
     </header>
     <body>
-        <img src="images/turtle.jpg" alt="turtle-banner" class="img-fluid">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col">
-                    <p class="justify-content-center pt-5">
-                        “Mental health is not a destination, but a process. It's about how you drive, not where you're going.”
-                    </p>
-                    <p class="justify-content-center">-Noam Spencer, Ph</p>
-                </div>
+        <!-- Jumbotron -->
+
+    <div
+            class="bg-image d-flex justify-content-center align-items-center container-fluid"
+            style="background-image: url('images/turtle.jpg');
+            height: 75vh;"
+          >
+        <div class="row">
+            <div class="col-12 text-center">
+                <h4>
+                    “Mental health is not a destination, but a process. It's about how you drive, not where you're going.”
+                </h4>
+            </div>
+            <div class="col-12 text-center">
+                <p>-Noam Spencer, Ph</p>
             </div>
         </div>
+
+    </div> 
+
+    <!-- Card Section -->
+    <div class="album py-5 bg-light">
+        <div class="container">
+    
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                <div class="col">
+                    <div class="card shadow-sm text-center">
+                        <img src="/images/fix-brain.png" id="card-im" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Services</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">View Services</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm text-center">
+                        <img src="/images/about-me.svg" id="card-im" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">About Me</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card shadow-sm text-center">
+                        <img src="/images/insurance.jpg" id="card-im" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Insurance</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">See Our Network</a>
+                        </div>
+                    </div>
+                </div>
+        
+            </div>
+        </div>
+    </div>
+
+    <!-- Left Hero Section -->
+
+    <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img src="bootstrap-themes.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+          </div>
+          <div class="col-lg-6">
+            <h1 class="display-5 fw-bold lh-1 mb-3">Responsive left-aligned hero with image</h1>
+            <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+              <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
+              <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <!-- Contact Me Section -->
+
+    <div class="container-fluid">
+        <div>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+        </div>
+    </div>
+
 
         <!-- Bootstrap Javascript -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
